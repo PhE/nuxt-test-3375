@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Main branch !!</p>
+    <p>FEATURE B branch !!</p>
     <NuxtRouteAnnouncer />
   </div>
 </template>
