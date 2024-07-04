@@ -1,6 +1,6 @@
 <template>
   <div>
+    <p>Main branch !!</p>
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
   </div>
 </template>
