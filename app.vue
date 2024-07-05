@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>Main branch !!</p>
-    <p>version avec Thierry !!</p>
+    <p>Fonctionnalité TH !!</p>
 
     <NuxtRouteAnnouncer />
   </div>
