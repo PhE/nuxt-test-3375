@@ -1,7 +1,6 @@
 ![nuxt-ui-pro-docs-template](https://github.com/nuxt-ui-pro/docs/assets/904724/67fc15a7-92f6-4566-95b9-fe099012473c)
 
 
-
 # pp-front
 
 [![paxpar](https://img.shields.io/badge/Made%20with-paxpar-1D9FD7?logo=python&labelColor=000000)](https://paxpar.tech)
