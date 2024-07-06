@@ -1,8 +1,11 @@
 import type { Pricing } from "~~/models/pricing"
 
-// get pricing defined here + overloading from /deploy_conf.js
+// get pricing defined here + overloading from env vars
 export function getPricing(): Pricing {
-    for (const plan1 of (deploy_conf?.pricing?.plans || [])) {
+    //TODO: read pricing from env
+    //const conf_plans = deploy_conf?.pricing?.plans
+    const conf_plans = []
+    for (const plan1 of (conf_plans || [])) {
         for (const plan2 of (pricing?.plans || [])) {
             //console.debug('xxxxxxx plan', plan2)
             if (plan1?.id == plan2?.id) {
@@ -79,7 +82,7 @@ export const empty_pricing: Pricing = {
     sections: [],
 }
 
-// This Pricing conf may be overloaded by /deploy_conf.js
+// This Pricing conf may be overloaded by env
 const pricing: Pricing = {
     plans: [
         {
