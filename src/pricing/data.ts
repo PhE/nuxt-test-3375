@@ -3,7 +3,6 @@ import type { Pricing } from "~~/models/pricing"
 // get pricing defined here + overloading from env vars
 export function getPricing(): Pricing {
     //TODO: read pricing from env
-    //const conf_plans = deploy_conf?.pricing?.plans
     const conf_plans = []
     for (const plan1 of (conf_plans || [])) {
         for (const plan2 of (pricing?.plans || [])) {
