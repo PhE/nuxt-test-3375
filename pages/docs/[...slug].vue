@@ -13,18 +13,19 @@ const {
   params: { slug },
 } = useRoute();
 
+console.debug('slug', slug)
 
 const { data: page } = await useAsyncData(`nuxt-content:${useRoute().fullPath}`, () => {
   //console.debug({_path})
   return queryContent('/')
     .where({
       _locale: locale.value,
-      _path: `/${(slug as string[]).join("/")}`,
+      _path: `/docs/${(slug as string[]).join("/")}`,
      })
     .findOne()
 })
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: "Page not found", fatal: true })
+  throw createError({ statusCode: 404, statusMessage: "Docs page not found", fatal: true })
 }
 
 //const layout = page.value?.layout || "docs"
@@ -35,7 +36,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
     .where({ _extension: "md", navigation: { $ne: false } })
     .only(["title", "description", "_path"])
     .findSurround(withoutTrailingSlash(route.path))
-)
+  , { default: () => [] })
 
 useSeoMeta({
   titleTemplate: "%s - paxpar doc",

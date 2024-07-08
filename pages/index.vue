@@ -22,7 +22,7 @@ definePageMeta({ layout: "front" })
 
 //console.log("page.value", page.value, locale.value, fallbackLocale.value)
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: "Page not found", fatal: true })
+  throw createError({ statusCode: 404, statusMessage: "Page not found yy", fatal: true })
 }
 
 /*

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-/*
 import type { ParsedContent } from "@nuxt/content/dist/runtime/types"
 
 const colorMode = useColorMode()
@@ -49,7 +48,6 @@ useSeoMeta({
 })
 
 provide("navigation", navigation)
-*/
 </script>
 
 <template>
