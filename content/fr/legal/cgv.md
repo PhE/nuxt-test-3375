@@ -1,3 +1,0 @@
-# Conditions générales de vente
-
-...
