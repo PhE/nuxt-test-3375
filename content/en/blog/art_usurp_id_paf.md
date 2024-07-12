@@ -62,7 +62,7 @@ paxpar compares the data entered on the 3 PO/DN/inv. documents and **therefore d
  
 Paxpar tells Zina that none of the signatures on the Delivery Note and invoice match her public key and that she is therefore not the author of these electronic signatures. The identity theft has been detected.
 
-![CheckList fin](https://paxpar.tech/site/wp-content/uploads/2022/10/1201d_usurp-signature-detectee.png)
+![CheckList fin](https://paxpar.tech/site/wp-content/uploads/2022/10/1201d_usurp-signature-detectee.jpg)
  
 ## Audit Trail and paxpar
 The paxpar platform will enable you to check that your Audit Trail is

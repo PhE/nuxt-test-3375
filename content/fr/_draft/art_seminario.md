@@ -4,7 +4,7 @@ title: Déclaration de sinistre
 # titre à déterminer
 description: Utilisez votre téléphone en toute circonstance est possible
 # description à déterminer
-image: https://media.paxpar.tech/20240605_RFI_fr.png
+image: https://media.paxpar.tech/20240605_RFI_Seminaire_FR.jpg
 # image à déterminer !
 date: 2024-06-18
 ---

@@ -2,7 +2,7 @@
 title: Check
 description: "Liste des conformités"
 image:
-  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.png
+  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.jpg
 authors:
   - name: Francoise ENTZMANN
     avatar:

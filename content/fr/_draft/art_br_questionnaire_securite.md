@@ -1,6 +1,6 @@
 ---
 model: brouillon_article
-image: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.png
+image: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.jpg
 description: Vous voulez limiter les risques sécurité et vous assurer que tous vos salariés ont été sensibilisés aux consignes  📖 Lire l'article
 createdAt: 2023-08-11
 title: Campagne Sécurité dans mon entreprise

@@ -131,7 +131,7 @@ export default defineNuxtConfig({
     },
     */
   routeRules: {
-    '/': { prerender: true },
+    //'/': { prerender: true },
     // '/': { ssr: false },
     '/api/search.json': { prerender: true },
     '/blog**': { prerender: true },
@@ -187,12 +187,12 @@ export default defineNuxtConfig({
 
     public: {
       //publicRoutes,
+      //TODO: deprecate
       // Set NUXT_PUBLIC_BACKEND_FORCED env var to force the API backend      
       // see https://nuxt.com/docs/guide/going-further/runtime-config#environment-variables
       // example :
       //    export NUXT_PUBLIC_BACKEND_FORCED = 'http://192.168.8.137:8881'
       backendForced: undefined,
-      //TODO: add old deploy_conf var here
     }
   },
 

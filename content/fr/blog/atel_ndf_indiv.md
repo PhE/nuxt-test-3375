@@ -2,7 +2,7 @@
 title: Note de frais individuelle
 description: "Je suis commercial et je dois transmettre ma note de frais enrichie à ma responsable, maintenant fini la galère"
 image:
-  src: https://media.paxpar.tech/20230720_Atelier-vtd_ndf.png
+  src: https://media.paxpar.tech/20230720_Atelier-vtd_ndf.jpg
 authors:
   - name: Valérie SUIGNARD
     avatar:

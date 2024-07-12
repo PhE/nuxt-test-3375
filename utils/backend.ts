@@ -17,6 +17,8 @@ export function getBackend(protocol: string = "http"): string {
     /*
     protocol is 'http" or 'ws'
     */
+    // const deployConf = await $fetch('/deploy_conf.json')
+    //const data = await $fetch('/deploy_conf.json')
     //const backend = data?.backend
     if ( _backend === undefined) {
         _backend = guessBackendFromHostname()

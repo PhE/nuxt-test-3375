@@ -2,8 +2,7 @@
 model: atelier
 title: Déclaration de sinistre
 description: Utilisez votre téléphone en toute circonstance est possible
-image: https://media.paxpar.tech/20240605_RFI_fr.png
-# image à déterminer !
+image: https://media.paxpar.tech/img_illus_art_demo2.jpg
 date: 2024-06-18
 ---
 
@@ -65,6 +64,9 @@ Notre exemple fait intervenir 12 acteurs :
 - **2.** J'invite tous les invités à utiliser leur téléphone pour scanner le QR Code, puis suivre les instructions.
 
 <-->
+
+![QR Code](/images/images_articles/demo_2/qr_code.png) <!-- QR Code à scanner -->
+
 ### **Chaque membre de l'association** :
 
 > Je dois créer mon document "Déclaration de Sinistre"

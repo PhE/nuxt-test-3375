@@ -64,7 +64,7 @@ En revanche, paxpar détecte plusieurs anomalies :
 paxpar compare les données renseignées sur les 3 documents BC/BL/FA **et détecte donc la quantité modifiée sur le bon de livraison.**
 ![CheckList suite](https://paxpar.tech/site/wp-content/uploads/2022/10/1201d_qte-modif-detectee-1100x694.png)
 Paxpar indique à Zina que parmi les signatures présentes sur le Bon de Livraison et sur la facture, aucune ne correspond à sa clé publique et elle n’en est donc pas l’auteur. L’usurpation d’identité a été détectée.
-![CheckList fin](https://paxpar.tech/site/wp-content/uploads/2022/10/1201d_usurp-signature-detectee.png)
+![CheckList fin](https://paxpar.tech/site/wp-content/uploads/2022/10/1201d_usurp-signature-detectee.jpg)
 
 ## PAF et paxpar
 La plateforme paxpar va vous permettre de vérifier que votre Piste d’Audit Fiable est

@@ -2,7 +2,7 @@
 title: Conformité de contrats
 description: "Je constitue des documents contractuels, comment je m'assure de leur conformité ?"
 image:
-  src: https://media.paxpar.tech/20230413_Atelier-vtd_PDF-augm1.png
+  src: https://media.paxpar.tech/20230413_Atelier-vtd_PDF-augm1.jpg
 authors:
   - name: Valérie SUIGNARD
     avatar:

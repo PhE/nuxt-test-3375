@@ -17,7 +17,7 @@ import { ThemeSupa } from "@supabase/auth-ui-shared"
 //import type { Provider } from "@supabase/supabase-js"
 import { useIntervalFn } from '@vueuse/core'
 import type { Pausable } from '@vueuse/shared'
-import { getSocialLoginProviders } from "~~/src/tools"
+//import { getSocialLoginProviders } from "~~/src/tools"
 import type { Provider } from "@supabase/supabase-js"
 import { promiseTimeout, useTimeoutFn } from "@vueuse/core"
 
@@ -92,6 +92,14 @@ watch(
 
 
 onMounted(async () => {
+  // Don't access deploy_conf in script setup, it will raise an error on generate
+  // access in after the page is mounted
+  //providers.value = getSocialLoginProviders()
+  //console.debug('deploy_conf', deploy_conf)
+  //console.debug('window.deploy_conf', window.deploy_conf)
+  //
+  //providers.value = deploy_conf?.login?.social as Provider[]
+
   console.debug("mounted login emailRedirectTo=", emailRedirectTo)
   console.debug({ url })
 
@@ -102,7 +110,9 @@ onMounted(async () => {
 
   const { isPending } = useTimeoutFn(() => {
     //console.debug('useTimeoutFn')
-    providers.value = getSocialLoginProviders()
+    //console.debug('deploy_conf', deploy_conf)
+    //console.debug('window.deploy_conf', window.deploy_conf)
+    providers.value = deploy_conf?.login?.social as Provider[]
     isMounted.value = true
   }, DELAY)
 

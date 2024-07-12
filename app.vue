@@ -23,6 +23,14 @@ useHead({
   link: [
     { rel: 'icon', href: '/favicon.ico' }
   ],
+  script: [
+    {
+      src:
+        "/deploy_conf.js",
+      type: "text/javascript",
+      //async: true,
+    },
+  ]
 
   //TODO: since i18n, shall we set the lang ourselve ?
   //htmlAttrs: {
@@ -61,9 +69,7 @@ provide("navigation", navigation)
     </UMain>
 
     <ClientOnly>
-    <!--
       <LazyUContentSearch :files="files" :navigation="navigation" />
-    -->
     </ClientOnly>
 
     <UNotifications />

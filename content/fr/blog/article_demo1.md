@@ -2,7 +2,7 @@
 model: atelier
 title: Paxpar.tech et la gestion de documents complexes
 description: Simplifiez la vérification de conformité de vos dossiers RFI et de tous les documents associés à ce rapport. Simplifiez la génération de dossier RFI. 
-image: /images/images_articles/demo_1/image_accueil_article_demo_1.png
+image: https://media.paxpar.tech/img_illus_art_demo1.jpg
 date: 2024-06-18
 ---
 
@@ -16,7 +16,7 @@ Pour vérifier les documents fournis, notre solution fait appel à une liste de 
 
 L'outil **paxpar.tech** permet une visualisation graphique de ces documents complexes et de ses différentes pièces jointes sous la forme d'une marguerite.
 
-![marguerite](/images/images_articles/demo_1/marguerite.png)
+![marguerite](/images/images_articles/RFI/marguerite.png)
 
 Ainsi, il est plus facile de comprendre les documents principaux, les documents joints et les fichiers associés.
 
@@ -38,7 +38,7 @@ Lors de la création de ce document, chaque responsable doit s'assurer de la con
 
 Notre exemple fait intervenir deux acteurs :
 
-![personnages](/images/images_articles/demo_1/illus_persos_fr.png)
+![personnages](/images/images_articles/RFI/scenario1/illus_persos_fr.png)
 
 
 ## Mise en scène
@@ -53,15 +53,15 @@ Notre exemple fait intervenir deux acteurs :
 :ppw-pdf-link{href="/documents/aqb1.pdf"}
 
 - **2.** La checklist me signale une erreur !
-![erreur_checklist](/images/images_articles/demo_1/isa_1_001.png)
+![erreur_checklist](/images/images_articles/RFI/scenario1/isa_1_001.png)
 
 - **3.** Je clique sur _"Vue de base"_ ou _"Vue non-conformité"_ pour trouver la cause.
-![menu_vues](/images/images_articles/demo_1/isa_1_002.png)
+![menu_vues](/images/images_articles/RFI/scenario1/isa_1_002.png)
 
 - **4.** Il manque une ligne dans la LDA.
 - **5.** J'ai un fichier _DI002_ dans le Dossier de Suivi d'Intervention (DSI), mais ce fichier n'est pas renseignée dans la LDA alors qu'il devrait l'être. 
 
-![erreurLDA_DSI](/images/images_articles/demo_1/isa_1_003.png)
+![erreurLDA_DSI](/images/images_articles/RFI/scenario1/isa_1_003.png)
 
 > Je contacte Jacques pour qu'il vérifie et me renvoie un document conforme.
 
@@ -72,14 +72,14 @@ Notre exemple fait intervenir deux acteurs :
 
 - **1.** Je gère ma liste de documents qui composent la LDA dans un fichier excel.
 
-![excel_old](/images/images_articles/demo_1/jacques_001.png)
+![excel_old](/images/images_articles/RFI/scenario1/jacques_001.png)
 
 
 - **2.** En comparant la LDA et le DSI, je me rend compte qu'il manque la ligne DI002 dans la LDA alors que le fichier PDF est bien présent dans le DSI.
 - **3.** Je vais tout de suite regénérer une LDA et l'envoyer à Isabelle.
 - **4.** Je rajoute la ligne DI002 dans mon fichier excel.
 
-![excel_fixed](/images/images_articles/demo_1/jacques_002.png)
+![excel_fixed](/images/images_articles/RFI/scenario1/jacques_002.png)
 
 
 - **5.** Pour générer une nouvelle version de la LDA, je dépose l'ancienne pour ne pas avoir à re-saisir tous les champs.
@@ -99,28 +99,28 @@ Notre exemple fait intervenir deux acteurs :
 
 - **1.** Je vais sur la rubrique _"Craft"_ dans **paxpar.tech**.
 
-![rubrique_craft](/images/images_articles/demo_1/isa_2_001.png)
+![rubrique_craft](/images/images_articles/RFI/scenario1/isa_2_001.png)
 
 - **2.** Je dépose le PDF "DAQ" non-conforme.
 
-![depot_ancien_aq](/images/images_articles/demo_1/isa_2_002.png)
+![depot_ancien_aq](/images/images_articles/RFI/scenario1/isa_2_002.png)
 
 - **3.** Je dépose la nouvelle LDA.
 
-![nouvelle_lda](/images/images_articles/demo_1/isa_2_003.png)
+![nouvelle_lda](/images/images_articles/RFI/scenario1/isa_2_003.png)
 
 - **4.1.** Je supprime l'ancienne LDA.
 
-![suppr_lda_1](/images/images_articles/demo_1/isa_2_004.png)
+![suppr_lda_1](/images/images_articles/RFI/scenario1/isa_2_004.png)
 
 - **4.2.** Je supprime l'ancienne LDA.
 
-![suppr_lda_2](/images/images_articles/demo_1/isa_2_005.png)
+![suppr_lda_2](/images/images_articles/RFI/scenario1/isa_2_005.png)
 
 - **5.** Je vérifie.
 - **6.** Tout est vert !    
 
-![check_vert](/images/images_articles/demo_1/isa_2_006.png)
+![check_vert](/images/images_articles/RFI/scenario1/isa_2_006.png)
 
 - **7.** Je finalise en signant mon DAQ.
 

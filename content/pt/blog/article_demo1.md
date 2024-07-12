@@ -2,7 +2,7 @@
 model: atelier
 title: Relatório Final de Intervenção (RFI)
 description: Simplificar a verificação da conformidade dos seus ficheiros RFI e de todos os documentos associados a este relatório. Simplificar a geração de ficheiros RFI. 
-image: /images/images_articles/demo_1/image_accueil_article_demo_1.png
+image: https://media.paxpar.tech/img_illus_art_demo1.jpg
 date: 2024-06-18
 ---
 
@@ -14,7 +14,7 @@ Para controlar os documentos fornecidos,  utilizamos uma lista de controlo espec
 
 A ferramenta **paxpar.tech** apresenta estes documentos complexos sob a forma de uma cadeia.
 
-![marguerite](/images/images_articles/demo_1/marguerite.png)
+![marguerite](/images/images_articles/RFI/marguerite.png)
 
 
 Isto facilita a compreensão dos documentos principais, dos documentos anexos e dos ficheiros associados.
@@ -36,7 +36,7 @@ Ao criar este documento, cada gestor deve certificar-se de que os documentos que
 
 O nosso exemplo envolve dois atores :
 
-![personagem](/images/images_articles/demo_1/illus_persos_pt.png)
+![personagem](/images/images_articles/RFI/scenario1/illus_persos_pt.png)
 
 ## Encenação
 
@@ -49,15 +49,15 @@ O nosso exemplo envolve dois atores :
 :ppw-pdf-link{href="/documents/aqb1.pdf"}
 
 - **2.** A lista de controlo avisa-me de um erro!
-![erreur_checklist](/images/images_articles/demo_1/isa_1_001.png)
+![erreur_checklist](/images/images_articles/RFI/scenario1/isa_1_001.png)
 
 - **3.** Clico na _"Vue de base"_ ou na _"Vue non-conformité"_ para encontrar a causa.
-![menu_vues](/images/images_articles/demo_1/isa_1_002.png)
+![menu_vues](/images/images_articles/RFI/scenario1/isa_1_002.png)
 
 - **4.** Falta uma linha na LDA.
 - **5.** Tenho um ficheiro _DI002_ no ficheiro de acompanhamento do trabalho (DSI), mas a linha não foi introduzida no LDA.
 
-![erreurLDA_DSI](/images/images_articles/demo_1/isa_1_003.png)
+![erreurLDA_DSI](/images/images_articles/RFI/scenario1/isa_1_003.png)
 
 
 > Telefono a Jacques para que ele possa verificar e enviar-me um documento conforme.
@@ -69,14 +69,14 @@ O nosso exemplo envolve dois atores :
 
 - **1.** Giro a minha lista de documentos LDA num ficheiro Excel.
 
-![excel_old](/images/images_articles/demo_1/jacques_001.png)
+![excel_old](/images/images_articles/RFI/scenario1/jacques_001.png)
 
 
 - **2.** Quando comparo o LDA e o DSI, apercebo-me de que falta uma linha DI002 no LDA, quando tenho o ficheiro PDF no DSI.
 - **3.** Gero imediatamente um novo LDA e enviá-lo a Isabelle.  
 - **4.** Acrescento a linha DI002 ao meu ficheiro Excel.
 
-![excel_fixed](/images/images_articles/demo_1/jacques_002.png)
+![excel_fixed](/images/images_articles/RFI/scenario1/jacques_002.png)
 
 
 - **5.** Para gerar uma nova versão, insiro a antiga para não ter de voltar a introduzir todos os campos.
@@ -96,28 +96,28 @@ O nosso exemplo envolve dois atores :
 
 - **1.** Vou à secção _"Craft"_ do **paxpar.tech**.
 
-![rubrique_craft](/images/images_articles/demo_1/isa_2_001.png)
+![rubrique_craft](/images/images_articles/RFI/scenario1/isa_2_001.png)
 
 - **2.** Apresento o PDF "DGQ" não conforme.
 
-![depot_ancien_aq](/images/images_articles/demo_1/isa_2_002.png)
+![depot_ancien_aq](/images/images_articles/RFI/scenario1/isa_2_002.png)
 
 - **3.** Apresento o novo LDA.
 
-![nouvelle_lda](/images/images_articles/demo_1/isa_2_003.png)
+![nouvelle_lda](/images/images_articles/RFI/scenario1/isa_2_003.png)
 
 - **4.1.** Estou a apagar a antiga LDA.
 
-![suppr_lda_1](/images/images_articles/demo_1/isa_2_004.png)
+![suppr_lda_1](/images/images_articles/RFI/scenario1/isa_2_004.png)
 
 - **4.2.** Estou a apagar a antiga LDA.
 
-![suppr_lda_2](/images/images_articles/demo_1/isa_2_005.png)
+![suppr_lda_2](/images/images_articles/RFI/scenario1/isa_2_005.png)
 
 - **5.** Verifico. 
 - **6.** Está tudo verde!
 
-![check_vert](/images/images_articles/demo_1/isa_2_006.png)
+![check_vert](/images/images_articles/RFI/scenario1/isa_2_006.png)
 
 - **7.** Por fim, assino o meu "DGQ"
 

@@ -2,7 +2,7 @@
 model: atelier
 title: Formulário de reclamação
 description: Utilizar o telemóvel em todas as circunstâncias
-image: https://media.paxpar.tech/20240617_RFI_fr.png
+image: https://media.paxpar.tech/img_illus_art_demo2.jpg
 date: 2024-06-18
 ---
 

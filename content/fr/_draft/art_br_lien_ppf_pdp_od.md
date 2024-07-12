@@ -2,7 +2,7 @@
 title: Lien PPF- PDP - OP
 description: "Beaucoup d'acronymes et peu d'explications "
 image:
-  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.png
+  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.jpg
 authors:
   - name: Francoise ENTZMANN
     avatar:

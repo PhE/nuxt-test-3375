@@ -2,7 +2,7 @@
 title: Contrat Bail
 description: "Aide au logement et bail locatif"
 image:
-  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.png
+  src: https://media.paxpar.tech/pp_blog_fe_gain-fiabilite7_pexels.jpg
 authors:
   - name: Valérie SUIGNARD
     avatar:
