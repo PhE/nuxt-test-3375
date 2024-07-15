@@ -119,7 +119,7 @@ export default defineNuxtConfig({
         "output": {
             dir: 'output',
             serverDir: 'output/server',
-            publicDir: 'output/public'
+            publicDir: 'dist'
         }
     },
     
