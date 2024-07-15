@@ -115,13 +115,15 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
 
-  nitro: {
-    output: {
-      dir: 'output',
-      serverDir: 'output/server',
-      publicDir: 'dist'
-    }
-  },
+  //nitro: {
+  //  //see https://nitro.unjs.io/deploy/providers/cloudflare#building-your-application-using-the-preset
+  //  //preset: "cloudflare-pages",
+  //  output: {
+  //    dir: 'output',
+  //    serverDir: 'output/server',
+  //    publicDir: 'dist'
+  //  }
+  //},
 
   /*
     routeRules: {
