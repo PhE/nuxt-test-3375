@@ -115,14 +115,14 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
 
-    "nitro": {
-        "output": {
-            dir: 'output',
-            serverDir: 'output/server',
-            publicDir: 'dist'
-        }
-    },
-    
+  nitro: {
+    output: {
+      dir: 'output',
+      serverDir: 'output/server',
+      publicDir: 'dist'
+    }
+  },
+
   /*
     routeRules: {
       '/admin/**': {
